@@ -8,6 +8,6 @@ int main()
     // variable_work();
     // const_work();
     // const_challenge();
-    array_work();
+    vector_work();
     return 0;
 }

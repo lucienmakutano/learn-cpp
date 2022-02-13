@@ -37,5 +37,6 @@ CMakeCache.txt
 cmake_install.cmake
 cmake_uninstall.cmake
 CMakeScripts/
+build/
 Makefile
 lean_cpp

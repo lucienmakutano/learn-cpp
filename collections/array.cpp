@@ -4,9 +4,9 @@
 
 void array_work()
 {
-    int scores[3]{1, 2};
-    char vowels[]{'a', 'e', 'i', 'o', 'u'};
-    std::string names[]{""};
+    int scores[3]{1, 2}; // 3rd element is 0
+    char vowels[5]{'a', 'e', 'i', 'o', 'u'};
+    std::string names[]{""}; // dynamic loocation of space
 
     // std::cin >> vowels[5]; // error: array out of bound
 
