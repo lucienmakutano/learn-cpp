@@ -8,10 +8,10 @@ using namespace std;
 
 void print_vector(vector<string> v);
 void print_vector(vector<int> v = {1, 2, 3, 4, 5});
-void print_array(int arr[], size_t size);
-void print_array(const int arr[], size_t size);
-void pass_by_ref(int &num);             // mutable
-void pass_by_const_ref(const int &num); // immutable
+void print_array(int arr[], size_t size);       // mutable
+void print_array(const int arr[], size_t size); // immutable
+void pass_by_ref(int &num);                     // mutable
+void pass_by_const_ref(const int &num);         // immutable
 void swap(int &a, int &b);
 void scopes();
 
