@@ -13,7 +13,11 @@ void ptr_challenge()
     int arr2[]{10, 20, 30};
 
     int *result = apply_alloc(arr1, 5, arr2, 3);
-    print_arr(result, 15);
+
+    int result_size = (sizeof(arr1) / sizeof(int)) * (sizeof(arr2) / sizeof(int));
+    print_arr(result, result_size);
+
+    delete[] result;
 }
 
 int *apply_alloc(int *arr1, size_t arr1_size, int *arr2, size_t arr2_size)
