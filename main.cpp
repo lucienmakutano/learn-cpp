@@ -7,6 +7,7 @@
 #include "operators/ops.h"
 #include "str/str.h"
 #include "functions/func.h"
+#include "ptr/ptr.hpp"
 
 int main()
 {
@@ -16,6 +17,7 @@ int main()
     // vector_work();
     // euro_to_usd_converter();
     // std::cout << letter_pyramid("ABC") << std::endl;
-    func_challenge();
+    // func_challenge();
+    ptr_challenge();
     return 0;
 }

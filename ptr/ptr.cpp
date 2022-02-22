@@ -109,3 +109,19 @@ void double_wage(int *wage)
 {
     *wage *= 2; // *wage = *wage * 2;
 }
+
+int *new_int()
+{
+    int *i = new int;
+    return i;
+}
+
+// return a pointer to an array allocated on the heap
+string *create_array(size_t size)
+{
+    string *arr{nullptr};
+
+    arr = new string[size];
+
+    return arr;
+}
